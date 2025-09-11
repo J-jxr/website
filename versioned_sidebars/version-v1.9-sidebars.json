@@ -33,8 +33,7 @@
         "tutorials/autoscaling-federatedhpa-with-cronfederatedhpa",
         "tutorials/autoscaling-workload-with-cronfederatedhpa",
         "tutorials/resource-migration",
-        "tutorials/access-service-across-clusters",
-        "tutorials/workload-rebalancer"
+        "tutorials/access-service-across-clusters"
       ]
     },
     {
@@ -46,8 +45,7 @@
         "installation/fromsource",
         "installation/install-binary",
         "installation/ha-installation",
-        "installation/ha-installation-with-cli",
-        "installation/install-with-cli"
+        "installation/ha-installation-with-cli"
       ]
     },
     {
@@ -71,8 +69,7 @@
             "userguide/scheduling/propagate-dependencies",
             "userguide/scheduling/descheduler",
             "userguide/scheduling/scheduler-estimator",
-            "userguide/scheduling/cluster-resources",
-            "userguide/scheduling/workload-rebalancer"
+            "userguide/scheduling/cluster-resources"
           ]
         },
         {
@@ -119,8 +116,7 @@
           "label": "Multi-cluster CI/CD",
           "items": [
             "userguide/cicd/working-with-argocd",
-            "userguide/cicd/working-with-flux",
-            "userguide/cicd/working-with-pipecd"
+            "userguide/cicd/working-with-flux"
           ]
         },
         {
@@ -159,8 +155,7 @@
           "label": "Configuration",
           "items": [
             "administrator/configuration/configure-controllers",
-            "administrator/configuration/resource-deletion-protection",
-            "administrator/configuration/priority-class-configuration"
+            "administrator/configuration/resource-deletion-protection"
           ]
         },
         {
@@ -197,11 +192,7 @@
             "administrator/upgrading/v1.5-v1.6",
             "administrator/upgrading/v1.6-v1.7",
             "administrator/upgrading/v1.7-v1.8",
-            "administrator/upgrading/v1.8-v1.9",
-            "administrator/upgrading/v1.9-v1.10",
-            "administrator/upgrading/v1.10-v1.11",
-            "administrator/upgrading/v1.11-v1.12",
-            "administrator/upgrading/v1.12-v1.13"
+            "administrator/upgrading/v1.8-v1.9"
           ]
         },
         {
@@ -216,8 +207,7 @@
           "label": "Security",
           "items": [
             "administrator/security/security-considerations",
-            "administrator/security/verify-artifacts",
-            "administrator/security/component-permission"
+            "administrator/security/verify-artifacts"
           ]
         }
       ]
@@ -230,8 +220,7 @@
         "developers/performance-test-setup-for-karmada",
         "developers/releasing",
         "developers/customize-karmada-scheduler",
-        "developers/document-releasing",
-        "developers/add-new-api"
+        "developers/document-releasing"
       ]
     },
     {
@@ -284,8 +273,7 @@
             "reference/karmadactl/bash-auto-completion-on-linux",
             "reference/karmadactl/karmadactl-commands/karmadactl_index",
             "reference/karmadactl/karmadactl-commands/karmadactl",
-            "reference/karmadactl/karmadactl-usage-conventions",
-            "reference/karmadactl/karmadactl-config.v1alpha1"
+            "reference/karmadactl/karmadactl-usage-conventions"
           ]
         },
         {
@@ -300,7 +288,7 @@
             "reference/components/karmada-scheduler-estimator",
             "reference/components/karmada-search",
             "reference/components/karmada-webhook",
-            "reference/components/karmada-metrics-adapter"
+	          "reference/components/karmada-metrics-adapter"
           ]
         },
         {
@@ -321,16 +309,6 @@
             "keywords": ["Karmada API"]
           },
           "items": [
-            {
-              "type": "category",
-              "label": "App Resources",
-              "link": {
-                "type": "generated-index"
-              },
-              "items": [
-                "reference/karmada-api/app-resources/workload-rebalancer-v1alpha1"
-              ]
-            },
             {
               "type": "category",
               "label": "Auto Scaling Resources",
