@@ -90,9 +90,9 @@ helm upgrade -i --namespace ${EC_NAMESPACE} --create-namespace --version=${EC_VE
 
 After the installation is complete, register the **three member clusters** with the ErieCanal control plane. Use the following command on the control-plane cluster:
 
-CLUSTER_NAME=<member_cluster_name>
+CLUSTER_NAME=`<member_cluster_name>`
 
-HOST_IP=<member_cluster_entry_ip>
+HOST_IP=`<member_cluster_entry_ip>`
 
 PORT=<member_cluster_entry_port>
 
